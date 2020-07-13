@@ -14,6 +14,12 @@ namespace Ping
 
       List<string> pingPong = new List<string>();
       pingPong = PingPong.Play(userNumber);
+
+      foreach(string number in pingPong)
+      {
+        Console.WriteLine(number);
+      }
+      
     }
   }
 }
